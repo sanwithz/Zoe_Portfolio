@@ -1,0 +1,230 @@
+Zoe Levine - Web Developer
+
+This is a portfolio html template made by codewithsadee
+
+
+
+#---------- HEADER ----------#
+
+alt = Logo
+
+aria-label = toggle menu
+
+Home
+Services
+Skills
+Works
+Blog
+Contact
+
+
+
+#---------- HERO ----------#
+
+Hello, My Name Is
+
+Zoé Levine
+
+I Am Web Developer
+
+alt = Zoé Levine
+
+12 +
+years of
+experience
+
+330
+completed
+projects
+
+From France, Paris. I have rich experience in web design, also I am good at wordpress. I love to talk with you about our unique.
+
+<ion-icon name="logo-twitter"></ion-icon>
+<ion-icon name="logo-github"></ion-icon>
+<ion-icon name="logo-codepen"></ion-icon>
+
+Download Cv
+
+My Skills
+
+
+
+#---------- SERVICE ----------#
+
+What I Do
+
+My Services
+
+Web Development
+Web Design & Logo
+
+Web designers craft the overall vision & plan for a website layout. Professional logo development: Business, Company, or Personal
+
+See Pricing
+<ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+
+alt = shape
+
+Apps Development
+iOS & Android
+
+Design Software applications to run on mobile devices. Modern and mobile-ready application that will help you reach all of your marketing.
+
+Game Development
+Unity & Unreal Engine
+
+Creating games & describes the design, development and release of a game. Developing unique mobile android and ios games.
+
+Advertising
+Google Ads
+
+Advertising services include: Google search result pages, gmails, YouTube and other websites participated in Google Ads program.
+
+Music Writing
+Sound Track
+
+Music copying, writing, creating, transcription and composition services.
+
+
+
+#---------- SKILLS ----------#
+
+Professional Skills
+My Talent
+
+PHP
+85%
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+Python
+75%
+
+JavaScript
+75%
+
+React
+70%
+
+WordPress
+90%
+
+Adobe XD
+80%
+
+
+
+#---------- PORTFOLIO ----------#
+
+Portfolio
+My Cases
+
+alt = Zorro
+Branding, Photography
+
+Zorro
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+
+See project
+<ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+
+
+alt = Gooir
+Branding, Ui Ux Design
+Gooir
+
+alt = Explore
+Development, Ui Ux Design
+Explore
+
+alt = Mozar
+Branding, Photography
+Mozar
+
+alt = Stay Fit
+Development, Ui Ux Design
+Stay Fit
+
+alt = Kana
+Development, Photography
+Kana
+
+View More
+
+
+
+#---------- BLOG ----------#
+
+Latest Blog
+My Articles and Advice
+
+October 31, 2022
+The Main Thing For The Designer
+
+Vivamus interdum suscipit lacus. Nunc ultrices accumsan mattis. Aliquam vel sem vel velit efficitur malesuada. Donec arcu lacus, ornare eget…
+
+Read more
+<ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+
+alt = The Main Thing For The Designer
+
+
+Follow Your Own Design Process
+
+Usability Secrets to Create Better Interfaces
+
+View Blog
+
+
+
+#---------- CONTACT ----------#
+
+Contact Me
+
+Let’S
+Talk About Ideas
+
+<ion-icon name="map-outline" aria-hidden="true"></ion-icon>
+Address
+
+North Tower, Toronto, Canada
+
+<ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+Freelance
+
+Available Right Now
+
+<ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+Email
+
+contact@levine.com
+
+<ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+Phone
+
++1 900 - 900 - 9000
+
+Your Full Name *
+Your Email Address *
+Your Subject *
+Your Message *
+
+* Accept the terms and conditions.
+
+Send Message
+
+
+
+#---------- FOOTER ----------#
+
+<ion-icon name="logo-twitter"></ion-icon>
+<ion-icon name="logo-github"></ion-icon>
+<ion-icon name="logo-codepen"></ion-icon>
+
+&copy; 2023
+Levine
+. All Rights Reserved
+
+Developed By
+https://www.youtube.com/@codewithsadee
+codewithsadee

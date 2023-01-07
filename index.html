@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Zoe Levine - Web Developer</title>
+  <meta name="title" content="Zoe Levine - Web Developer">
+  <meta name="description" content="This is a portfolio html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Jost:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/logo.svg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="./assets/images/hero-abs-img-1.svg">
+  <link rel="preload" as="image" href="./assets/images/hero-abs-img-2.svg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <img src="./assets/images/logo.svg" width="114" height="24" alt="logo">
+
+    <div class="progress">
+      <div class="progress-fill"></div>
+    </div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.svg" width="125" height="25" alt="Logo">
+      </a>
+
+      <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggle-btn>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#service" class="navbar-link" data-nav-link>Services</a>
+          </li>
+
+          <li>
+            <a href="#skill" class="navbar-link" data-nav-link>Skills</a>
+          </li>
+
+          <li>
+            <a href="#work" class="navbar-link" data-nav-link>Works</a>
+          </li>
+
+          <li>
+            <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+        </ul>
+
+        <div class="section-deco has-before has-after">
+          <img src="./assets/images/pattern-1.svg" width="220" height="220" loading="lazy" alt="shape" class="shape">
+        </div>
+
+      </nav>
+
+      <div class="overlay" data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero gradient-top text-center" aria-label="home" id="home">
+
+        <div class="container">
+          <div class="hero-content">
+
+            <p class="hero-subtitle" data-reveal>
+              Hello, <span class="span">My Name Is</span>
+            </p>
+
+            <h1 class="hero-title" data-reveal>
+              Zoé <span class="span">Levine</span>
+            </h1>
+
+            <p class="hero-subtitle-2" data-reveal>
+              I Am <span class="subtitle">Web Developer</span>
+            </p>
+
+            <div class="img-wrapper">
+
+              <div class="hero-banner" data-reveal>
+                <img src="./assets/images/hero-banner.png" width="720" height="838" alt="Zoé Levine" class="w-100 img">
+              </div>
+
+              <p class="abs-content abs-content-1">
+                <span class="text-lg text-center">12 <b>+</b></span>
+
+                <span class="text-sm">
+                  years of <span class="span">experience</span>
+                </span>
+              </p>
+
+              <p class="abs-content abs-content-2">
+                <span class="text-lg text-center">330</span>
+
+                <span class="text-sm">
+                  completed <span class="span">projects</span>
+                </span>
+              </p>
+
+              <img src="./assets/images/pattern-1.svg" width="452" height="452" alt="shape" class="shape shape-1">
+
+              <img src="./assets/images/pattern-2.svg" width="282" height="282" alt="shape" class="shape shape-2">
+
+              <img src="./assets/images/pattern-2.svg" width="282" height="282" alt="shape" class="shape shape-3">
+
+            </div>
+
+            <p class="hero-text" data-reveal>
+              From France, Paris. I have rich experience in web design, also I am good at wordpress. I love to talk with
+              you about our unique.
+            </p>
+
+            <ul class="social-list" data-reveal>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-github"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-codepen"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+
+            <div class="wrapper">
+              <a href="#" class="btn has-before" data-reveal>Download Cv</a>
+
+              <div class="separator"></div>
+
+              <a href="#skill" class="hero-link" data-reveal>My Skills</a>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="section-deco deco-left has-before has-after">
+          <img src="./assets/images/pattern-1.svg" width="220" height="220" loading="lazy" alt="shape" class="shape">
+        </div>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service gradient-bottom" aria-labelledby="service-label" id="service">
+
+        <div class="container">
+
+          <h2 class="h2 title section-title text-center" id="service-label">What I Do</h2>
+
+          <p class="section-subtitle" data-reveal>
+            My <span class="subtitle">Services</span>
+          </p>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item" data-reveal>
+              <div class="service-card card">
+
+                <p class="card-subtitle">Web Development</p>
+
+                <h3 class="h3 title card-title">Web Design & Logo</h3>
+
+                <p class="card-text">
+                  Web designers craft the overall vision & plan for a website layout. Professional logo development:
+                  Business, Company, or Personal
+                </p>
+
+                <a href="#" class="card-btn">
+                  <span class="span">See Pricing</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+                <img src="./assets/images/pattern-2.svg" width="140" height="140" loading="lazy" alt="shape"
+                  class="card-shape">
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item" data-reveal>
+              <div class="service-card card">
+
+                <p class="card-subtitle">Apps Development</p>
+
+                <h3 class="h3 title card-title">iOS & Android</h3>
+
+                <p class="card-text">
+                  Design Software applications to run on mobile devices. Modern and mobile-ready application that will
+                  help you reach all of your marketing.
+                </p>
+
+                <a href="#" class="card-btn">
+                  <span class="span">See Pricing</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+                <img src="./assets/images/pattern-2.svg" width="140" height="140" loading="lazy" alt="shape"
+                  class="card-shape">
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item" data-reveal>
+              <div class="service-card card">
+
+                <p class="card-subtitle">Game Development</p>
+
+                <h3 class="h3 title card-title">Unity & Unreal Engine</h3>
+
+                <p class="card-text">
+                  Creating games & describes the design, development and release of a game. Developing unique mobile
+                  android and ios games.
+                </p>
+
+                <a href="#" class="card-btn">
+                  <span class="span">See Pricing</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+                <img src="./assets/images/pattern-2.svg" width="140" height="140" loading="lazy" alt="shape"
+                  class="card-shape">
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item" data-reveal>
+              <div class="service-card card">
+
+                <p class="card-subtitle">Advertising</p>
+
+                <h3 class="h3 title card-title">Google Ads</h3>
+
+                <p class="card-text">
+                  Advertising services include: Google search result pages, gmails, YouTube and other websites
+                  participated in Google Ads program.
+                </p>
+
+                <a href="#" class="card-btn">
+                  <span class="span">See Pricing</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+                <img src="./assets/images/pattern-2.svg" width="140" height="140" loading="lazy" alt="shape"
+                  class="card-shape">
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item" data-reveal>
+              <div class="service-card card">
+
+                <p class="card-subtitle">Music Writing</p>
+
+                <h3 class="h3 title card-title">Sound Track</h3>
+
+                <p class="card-text">
+                  Music copying, writing, creating, transcription and composition services.
+                </p>
+
+                <a href="#" class="card-btn">
+                  <span class="span">See Pricing</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+                <img src="./assets/images/pattern-2.svg" width="140" height="140" loading="lazy" alt="shape"
+                  class="card-shape">
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="section-deco deco-right has-before has-after">
+          <img src="./assets/images/pattern-1.svg" width="220" height="220" loading="lazy" alt="shape" class="shape">
+        </div>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SKILLS
+      -->
+
+      <section class="section skills gradient-top" aria-labelledby="skill-label" id="skill">
+
+        <div class="container">
+
+          <h2 class="h2 title section-title text-center" id="skill-label" data-reveal>
+            Professional Skills
+          </h2>
+
+          <p class="section-subtitle" data-reveal>
+            My <span class="subtitle">Talent</span>
+          </p>
+
+          <ul class="grid-list">
+
+            <li data-reveal>
+              <div class="skill-card">
+
+                <div class="card-wrapper">
+                  <h3 class="h4 title card-title">PHP</h3>
+
+                  <span class="span">85%</span>
+                </div>
+
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua.
+                </p>
+
+                <div class="progress">
+                  <div class="progress-fill has-after" style="width: 85%;"></div>
+                </div>
+
+              </div>
+            </li>
+
+            <li data-reveal>
+              <div class="skill-card">
+
+                <div class="card-wrapper">
+                  <h3 class="h4 title card-title">Python</h3>
+
+                  <span class="span">75%</span>
+                </div>
+
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua.
+                </p>
+
+                <div class="progress">
+                  <div class="progress-fill has-after" style="width: 75%;"></div>
+                </div>
+
+              </div>
+            </li>
+
+            <li data-reveal>
+              <div class="skill-card">
+
+                <div class="card-wrapper">
+                  <h3 class="h4 title card-title">JavaScript</h3>
+
+                  <span class="span">75%</span>
+                </div>
+
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua.
+                </p>
+
+                <div class="progress">
+                  <div class="progress-fill has-after" style="width: 75%;"></div>
+                </div>
+
+              </div>
+            </li>
+
+            <li data-reveal>
+              <div class="skill-card">
+
+                <div class="card-wrapper">
+                  <h3 class="h4 title card-title">React</h3>
+
+                  <span class="span">70%</span>
+                </div>
+
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua.
+                </p>
+
+                <div class="progress">
+                  <div class="progress-fill has-after" style="width: 70%;"></div>
+                </div>
+
+              </div>
+            </li>
+
+            <li data-reveal>
+              <div class="skill-card">
+
+                <div class="card-wrapper">
+                  <h3 class="h4 title card-title">WordPress</h3>
+
+                  <span class="span">90%</span>
+                </div>
+
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua.
+                </p>
+
+                <div class="progress">
+                  <div class="progress-fill has-after" style="width: 90%;"></div>
+                </div>
+
+              </div>
+            </li>
+
+            <li data-reveal>
+              <div class="skill-card">
+
+                <div class="card-wrapper">
+                  <h3 class="h4 title card-title">Adobe XD</h3>
+
+                  <span class="span">80%</span>
+                </div>
+
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua.
+                </p>
+
+                <div class="progress">
+                  <div class="progress-fill has-after" style="width: 80%;"></div>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="section-deco deco-left has-before has-after">
+          <img src="./assets/images/pattern-1.svg" width="220" height="220" loading="lazy" alt="shape" class="shape">
+        </div>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #WORK
+      -->
+
+      <section class="section work gradient-bottom" aria-labelledby="work-label" id="work">
+
+        <div class="container">
+
+          <h2 class="h2 title section-title text-center" id="work-label" data-reveal>
+            Portfolio
+          </h2>
+
+          <p class="section-subtitle" data-reveal>
+            My <span class="subtitle">Cases</span>
+          </p>
+
+          <ul class="grid-list">
+
+            <li data-reveal>
+              <div class="work-card card">
+
+                <figure class="card-banner img-holder" style="--width: 700; --height: 700;">
+                  <img src="./assets/images/work-1.jpg" width="700" height="700" loading="lazy" alt="Zorro"
+                    class="img-cover">
+                </figure>
+
+                <p class="card-subtitle">Branding, Photography</p>
+
+                <h3 class="h3 title">
+                  <a href="#" class="card-title">Zorro</a>
+                </h3>
+
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore.
+                </p>
+
+                <a href="#" class="card-btn">
+                  <span class="span">See project</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+                <img src="./assets/images/pattern-2.svg" width="140" height="140" loading="lazy" alt="shape"
+                  class="card-shape">
+
+              </div>
+            </li>
+
+            <li data-reveal>
+              <div class="work-card card">
+
+                <figure class="card-banner img-holder" style="--width: 700; --height: 700;">
+                  <img src="./assets/images/work-2.jpg" width="700" height="700" loading="lazy" alt="Gooir"
+                    class="img-cover">
+                </figure>
+
+                <p class="card-subtitle">Branding, Ui Ux Design</p>
+
+                <h3 class="h3 title">
+                  <a href="#" class="card-title">Gooir</a>
+                </h3>
+
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore.
+                </p>
+
+                <a href="#" class="card-btn">
+                  <span class="span">See project</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+                <img src="./assets/images/pattern-2.svg" width="140" height="140" loading="lazy" alt="shape"
+                  class="card-shape">
+
+              </div>
+            </li>
+
+            <li data-reveal>
+              <div class="work-card card">
+
+                <figure class="card-banner img-holder" style="--width: 700; --height: 700;">
+                  <img src="./assets/images/work-3.jpg" width="700" height="700" loading="lazy" alt="Explore"
+                    class="img-cover">
+                </figure>
+
+                <p class="card-subtitle">Development, Ui Ux Design</p>
+
+                <h3 class="h3 title">
+                  <a href="#" class="card-title">Explore</a>
+                </h3>
+
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore.
+                </p>
+
+                <a href="#" class="card-btn">
+                  <span class="span">See project</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+                <img src="./assets/images/pattern-2.svg" width="140" height="140" loading="lazy" alt="shape"
+                  class="card-shape">
+
+              </div>
+            </li>
+
+            <li data-reveal>
+              <div class="work-card card">
+
+                <figure class="card-banner img-holder" style="--width: 700; --height: 700;">
+                  <img src="./assets/images/work-4.jpg" width="700" height="700" loading="lazy" alt="Mozar"
+                    class="img-cover">
+                </figure>
+
+                <p class="card-subtitle">Branding, Photography</p>
+
+                <h3 class="h3 title">
+                  <a href="#" class="card-title">Mozar</a>
+                </h3>
+
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore.
+                </p>
+
+                <a href="#" class="card-btn">
+                  <span class="span">See project</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+                <img src="./assets/images/pattern-2.svg" width="140" height="140" loading="lazy" alt="shape"
+                  class="card-shape">
+
+              </div>
+            </li>
+
+            <li data-reveal>
+              <div class="work-card card">
+
+                <figure class="card-banner img-holder" style="--width: 700; --height: 700;">
+                  <img src="./assets/images/work-5.jpg" width="700" height="700" loading="lazy" alt="Stay Fit"
+                    class="img-cover">
+                </figure>
+
+                <p class="card-subtitle">Development, Ui Ux Design</p>
+
+                <h3 class="h3 title">
+                  <a href="#" class="card-title">Stay Fit</a>
+                </h3>
+
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore.
+                </p>
+
+                <a href="#" class="card-btn">
+                  <span class="span">See project</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+                <img src="./assets/images/pattern-2.svg" width="140" height="140" loading="lazy" alt="shape"
+                  class="card-shape">
+
+              </div>
+            </li>
+
+            <li data-reveal>
+              <div class="work-card card">
+
+                <figure class="card-banner img-holder" style="--width: 700; --height: 700;">
+                  <img src="./assets/images/work-6.jpg" width="700" height="700" loading="lazy" alt="Kana"
+                    class="img-cover">
+                </figure>
+
+                <p class="card-subtitle">Development, Photography</p>
+
+                <h3 class="h3 title">
+                  <a href="#" class="card-title">Kana</a>
+                </h3>
+
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore.
+                </p>
+
+                <a href="#" class="card-btn">
+                  <span class="span">See project</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+                <img src="./assets/images/pattern-2.svg" width="140" height="140" loading="lazy" alt="shape"
+                  class="card-shape">
+
+              </div>
+            </li>
+
+          </ul>
+
+          <a href="#" class="btn has-before" data-reveal>View More</a>
+
+        </div>
+
+        <div class="section-deco deco-right has-before has-after">
+          <img src="./assets/images/pattern-1.svg" width="220" height="220" loading="lazy" alt="shape" class="shape">
+        </div>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog gradient-top" aria-labelledby="blog-label" id="blog">
+
+        <div class="container">
+
+          <h2 class="h2 title section-title text-center" id="blog-label" data-reveal>
+            Latest Blog
+          </h2>
+
+          <p class="section-subtitle" data-reveal>
+            My <span class="subtitle">Articles and Advice</span>
+          </p>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item" data-reveal>
+              <div class="blog-card card">
+
+                <div class="card-content">
+
+                  <time class="date" datetime="2022-10-31">October 31, 2022</time>
+
+                  <h3 class="h3 title">
+                    <a href="#" class="card-title">The Main Thing For The Designer</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Vivamus interdum suscipit lacus. Nunc ultrices accumsan mattis. Aliquam vel sem vel velit efficitur
+                    malesuada. Donec arcu lacus, ornare eget…
+                  </p>
+
+                  <a href="#" class="card-btn">
+                    <span class="span">Read more</span>
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 280;">
+                  <img src="./assets/images/blog-1.jpg" width="500" height="280" loading="lazy"
+                    alt="The Main Thing For The Designer" class="img-cover">
+                </figure>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item" data-reveal>
+              <div class="blog-card card">
+
+                <div class="card-content">
+
+                  <time class="date" datetime="2022-10-31">October 31, 2022</time>
+
+                  <h3 class="h3 title">
+                    <a href="#" class="card-title">Follow Your Own Design Process</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Vivamus interdum suscipit lacus. Nunc ultrices accumsan mattis. Aliquam vel sem vel velit efficitur
+                    malesuada. Donec arcu lacus, ornare eget…
+                  </p>
+
+                  <a href="#" class="card-btn">
+                    <span class="span">Read more</span>
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 280;">
+                  <img src="./assets/images/blog-2.jpg" width="500" height="280" loading="lazy"
+                    alt="Follow Your Own Design Process" class="img-cover">
+                </figure>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item" data-reveal>
+              <div class="blog-card card">
+
+                <div class="card-content">
+
+                  <time class="date" datetime="2022-10-31">October 31, 2022</time>
+
+                  <h3 class="h3 title">
+                    <a href="#" class="card-title">Usability Secrets to Create Better Interfaces</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Vivamus interdum suscipit lacus. Nunc ultrices accumsan mattis. Aliquam vel sem vel velit efficitur
+                    malesuada. Donec arcu lacus, ornare eget…
+                  </p>
+
+                  <a href="#" class="card-btn">
+                    <span class="span">Read more</span>
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 280;">
+                  <img src="./assets/images/blog-3.jpg" width="500" height="280" loading="lazy"
+                    alt="Usability Secrets to Create Better Interfaces" class="img-cover">
+                </figure>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <a href="#" class="btn has-before" data-reveal>View Blog</a>
+
+        </div>
+
+        <div class="section-deco deco-left has-before has-after">
+          <img src="./assets/images/pattern-1.svg" width="220" height="220" loading="lazy" alt="shape" class="shape">
+        </div>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="section contact gradient-bottom" aria-labelledby="contact-label" id="contact">
+
+        <div class="container">
+
+          <h2 class="h2 title section-title text-center" id="contact-label" data-reveal>
+            Contact Me
+          </h2>
+
+          <p class="section-subtitle" data-reveal>
+            Let’S <span class="subtitle">Talk About Ideas</span>
+          </p>
+
+          <div class="wrapper">
+
+            <ul class="contact-list">
+
+              <li class="contact-item" data-reveal>
+
+                <div class="item-icon has-after">
+                  <ion-icon name="map-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div>
+                  <h3 class="subtitle item-title">Address</h3>
+
+                  <address class="item-text">
+                    North Tower, Toronto, Canada
+                  </address>
+                </div>
+
+              </li>
+
+              <li class="contact-item" data-reveal>
+
+                <div class="item-icon has-after">
+                  <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div>
+                  <h3 class="subtitle item-title">Freelance</h3>
+
+                  <p class="item-text">
+                    Available Right Now
+                  </p>
+                </div>
+
+              </li>
+
+              <li class="contact-item" data-reveal>
+
+                <div class="item-icon has-after">
+                  <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div>
+                  <h3 class="subtitle item-title">Email</h3>
+
+                  <a href="mailto:contact@levine.com" class="item-text">
+                    contact@levine.com
+                  </a>
+                </div>
+
+              </li>
+
+              <li class="contact-item" data-reveal>
+
+                <div class="item-icon has-after">
+                  <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div>
+                  <h3 class="subtitle item-title">Phone</h3>
+
+                  <a href="tel:+19009009000" class="item-text">
+                    +1 900 - 900 - 9000
+                  </a>
+                </div>
+
+              </li>
+
+            </ul>
+
+            <form action="./index.html" method="post" class="contact-form" data-reveal>
+
+              <div class="input-wrapper">
+
+                <div>
+                  <label for="name" class="input-label">
+                    Your Full Name <span class="span">*</span>
+                  </label>
+
+                  <input type="text" name="name" id="name" autocomplete="off" required class="input-field">
+                </div>
+
+                <div>
+                  <label for="email" class="input-label">
+                    Your Email Address <span class="span">*</span>
+                  </label>
+
+                  <input type="email" name="email" id="email" autocomplete="off" required class="input-field">
+                </div>
+
+              </div>
+
+              <label for="subject" class="input-label">
+                Your Subject <span class="span">*</span>
+              </label>
+
+              <input type="text" name="subject" id="subject" autocomplete="off" required class="input-field">
+
+              <label for="message" class="input-label">
+                Your Message <span class="span">*</span>
+              </label>
+
+              <textarea name="message" id="message" required class="input-field"></textarea>
+
+              <div class="btn-wrapper">
+                <p class="text">
+                  * Accept the terms and conditions.
+                </p>
+
+                <button type="submit" class="btn has-before">Send Message</button>
+              </div>
+
+              <img src="./assets/images/pattern-1.svg" width="240" height="240" loading="lazy" alt="shape"
+                class="shape shape-1">
+
+            </form>
+
+          </div>
+
+        </div>
+
+        <div class="section-deco deco-right has-before has-after">
+          <img src="./assets/images/pattern-1.svg" width="220" height="220" loading="lazy" alt="shape" class="shape">
+        </div>
+
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer text-center">
+    <div class="container">
+
+      <ul class="social-list">
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-codepen"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+
+      <p class="copyright-text">
+        &copy; 2023 <span class="text-green">Levine</span>. All Rights Reserved
+      </p>
+
+      <p class="copyright-text">
+        Developed By <a href="https://www.youtube.com/@codewithsadee" target="_blank"
+          class="text-green">codewithsadee</a>
+      </p>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #CUSTOM CURSOR
+  -->
+
+  <div class="cursor" data-cursor></div>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
